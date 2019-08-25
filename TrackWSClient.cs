@@ -45,8 +45,8 @@ namespace TrackWSSample
                                     upssSvcAccessToken.AccessLicenseNumber = "1D5E2960D39CB1B5";
                                     upss.ServiceAccessToken = upssSvcAccessToken;
                                     UPSSecurityUsernameToken upssUsrNameToken = new UPSSecurityUsernameToken();
-                                    upssUsrNameToken.Username = "chad jasicki";
-                                    upssUsrNameToken.Password = "asdf46#$2";
+                                    upssUsrNameToken.Username = "userID";
+                                    upssUsrNameToken.Password = "assess ID";
                                     upss.UsernameToken = upssUsrNameToken;
                                     track.UPSSecurityValue = upss;
                                     RequestType request = new RequestType();
